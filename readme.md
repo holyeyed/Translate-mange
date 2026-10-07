@@ -2,7 +2,7 @@
 ## CÔNG CỤ CHUYỂN NGỮ CHO TRUYỆN TRANH<br/>
 <br/>
 ## BƯỚC 1:<br/>
-- Đăng ký và tạo 1 project bằng [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- Đăng ký và tạo 1 project bằng [Google AI Studio](https://aistudio.google.com/prompts/new_chat)<br/>
 - Sau đó bạn vào thẻ API Keys ở bên trái, tìm đến project vừa tạo để lấy api key<br/>
 - Bạn điền API KEY này thay cho chuỗi api trong file trans-mange.py<br/>
    API_KEY=os.getenv("GEMINI_API_KEY")<br/>
@@ -17,3 +17,5 @@ thành <br/>
 - Chọn model gemini được liệt kê, ưu tiên chọn flash-lite cho tốc độ nhanh như gió.<br/>
 - Sau đó khoanh vùng văn bản cần dịch<br/>
 - Tiến hành dịch từng trang và bấm nút next ở trên cùng để chuyển trang tiếp theo.<br/>
+[Thảo luận trên discord](https://discord.gg/v4bb8q8VN)
+![review](2026-10-07_18_19_07-Settings.jpg)
