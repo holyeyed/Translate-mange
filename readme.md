@@ -1,10 +1,9 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P3A3285YNL)<br/>
-## CÔNG CỤ CHUYỂN NGỮ CHO TRUYỆN TRANH
-<br/>
+CÔNG CỤ CHUYỂN NGỮ CHO TRUYỆN TRANH<br/>
 ## BƯỚC 1:
 - Đăng ký và tạo 1 project bằng [Google AI Studio](https://aistudio.google.com/prompts/new_chat) <br/>
 - Sau đó bạn vào thẻ API Keys ở bên trái, tìm đến project vừa tạo để lấy api key<br/>
-- Bạn điền API KEY này thay cho chuỗi api trong file trans-mange.py<br/>
+- Bạn điền API KEY này thay cho chuỗi api trong file "trans-mange.py"<br/>
    API_KEY=os.getenv("GEMINI_API_KEY")<br/>
 thành <br/>
    API_KEY="key api bạn copy được"<br/>
